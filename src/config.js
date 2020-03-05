@@ -1,7 +1,7 @@
 const utils = require("./configutils"); // Utility functions
 
 // The trigger word that precedes most commands and will activate the bot
-exports.trigger = "physics";
+exports.trigger = "jickbot";
 
 // Bot owner information
 exports.owner = {
@@ -15,10 +15,10 @@ exports.owner = {
 // Bot information
 exports.bot = {
     "names": {
-        "short": "AØBøt", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "AssumeZero Bot" // Name displayed in profile on bot's Facebook account
+        "short": "jickbot", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "Jick Bot" // Name displayed in profile on bot's Facebook account
     },
-    "id": "100041587845629" // Bot's ID (for security purposes in commands)
+    "id": "100041587845630" // Bot's ID (for security purposes in commands)
 }
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
@@ -36,7 +36,7 @@ exports.defaultTitle = "Unnamed chat"
 
 // Heroku settings (might need to tweak some things if using another host)
 // App name
-exports.appName = "assume-bot";
+exports.appName = "jickbot";
 
 // Server URL
 exports.serverURL = `http://${exports.appName}.herokuapp.com`;
