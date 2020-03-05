@@ -37,6 +37,22 @@ exports.categories = {
                 "regex": /stats(.*)/i,
                 "experimental": false
             },
+            "introduce": {
+                "display_names": ["introduce"],
+                "pretty_name": "Introduce",
+                "short_description": "Introduces the bot",
+                "description": "Introduces the bot",
+                "syntax": "introduce",
+                "example": "introduce",
+                "sudo": false,
+                "attachments": false,
+                "user_input": {
+                    "accepts": false,
+                    "optional": false
+                },
+                "regex": /introduce(?:\?)?/i,
+                "experimental": false
+            },
             "psa": {
                 "display_names": ["psa"],
                 "pretty_name": "PSA",

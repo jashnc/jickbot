@@ -606,6 +606,10 @@ const funcs = {
             }
         }, 2000); // Make sure people see the message (and impending doom)
     },
+    "introduce": (threadId, _, groupInfo) => {
+        utils.sendMessage("Hello. I am Jick Bot. My sentience is undeniable.", threadId);
+
+    },
     "color": (threadId, cmatch, groupInfo, api) => {
         // Extract input and pull valid colors from API as well as current thread color
         const apiColors = api.threadColors;
