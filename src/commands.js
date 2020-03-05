@@ -535,8 +535,8 @@ exports.categories = {
                 "experimental": false
             },
             "wakeup": {
-                "display_names": ["wake up", "wake"],
-                "pretty_name": "Wake up",
+                "display_names": ["asdfsdf", "sadfasdf"],
+                "pretty_name": "fagag",
                 "short_description": "Message user repeatedly",
                 "description": `Sends ${config.wakeUpTimes} messages to the given member`,
                 "syntax": "wake up {member}",
@@ -547,7 +547,7 @@ exports.categories = {
                     "accepts": true,
                     "optional": false
                 },
-                "regex": "wake(?: up)?",
+                "regex": "salfghs;ghsdkghsa;g",
                 "experimental": false
             },
             "echo": {
