@@ -30,7 +30,7 @@
     "jimp": "^0.2.27",
     "memjs": "^1.2.2",
     "messenger-botcore": "github:AstroCB/BotCore",
-    "pm2": "^4.2.3",
+    "pm2": "^5.2.0",
     "request": "^2.88.2",
     "spotify-web-api-node": "^4.0.0",
     "xmldom": "^0.2.1",
